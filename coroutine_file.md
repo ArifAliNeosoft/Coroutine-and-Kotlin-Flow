@@ -16,11 +16,12 @@
 
 
 ## 1. Coroutines
- A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
- coroutines help to manage long-running tasks that might otherwise block the main thread and cause your app to become unresponsive
+#### A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.
+#### coroutines help to manage long-running tasks that might otherwise block the main thread and cause your app to become unresponsive
 ### Features
-Coroutines is our recommended solution for asynchronous programming on Android. Noteworthy features include the following:
-Lightweight:</span><span style="color:black;font-size:20px"> You can run many coroutines on a single thread due to support for suspension, which doesn't block the thread where the coroutine is running. Suspending saves memory over blocking while supporting many concurrent operations.
+#### Coroutines is our recommended solution for asynchronous programming on Android. Noteworthy features include the following:
+## - Lightweight:-
+You can run many coroutines on a single thread due to support for suspension, which doesn't block the thread where the coroutine is running. Suspending saves memory over blocking while supporting many concurrent operations.
  <br/>
  <br/>
  <span style="color:green;font-size:22px"><U>Fewer memory leaks: </span><span style="color:black;font-size:20px"> Use structured concurrency to run operations within a scope.Built-in cancellation support: Cancellation is propagated automatically through the running coroutine hierarchy.
